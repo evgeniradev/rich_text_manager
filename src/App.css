@@ -1,0 +1,29 @@
+body {
+  font-size: 15px;
+}
+
+.container {
+  padding: 0.2em;
+}
+
+#rich-editor {
+  border: 1px solid lightgrey;
+  height: 500px;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 5em;
+}
+
+.DraftEditor-editorContainer{
+  overflow-y: scroll;
+}
+
+.DraftEditor-root, .DraftEditor-editorContainer, .public-DraftEditor-content {
+  height: 100%;
+}
+
+.file-import p {
+  display: inline-block;
+  margin-right: 0.5rem;
+  margin-top: 0;
+}

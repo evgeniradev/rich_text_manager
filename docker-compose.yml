@@ -1,0 +1,9 @@
+version: '3'
+services:
+  rich_text_manager_app:
+    build: .
+    volumes:
+     - .:/app
+     - /app/node_modules
+    ports:
+      - '80:3000'
